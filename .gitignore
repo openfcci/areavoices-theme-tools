@@ -16,3 +16,10 @@ wp-content/plugins/hello.php
 /readme.html
 /license.txt
 
+.DS_Store
+.imdone
+.imdone/
+*.codekit
+*tags
+
+
