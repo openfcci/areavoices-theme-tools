@@ -50,6 +50,9 @@ function av_theme_conversion_tool() {
         /* Jetpack Activation */
         fcc_jetpack_connect();
 
+        /* Activate Jetpack Modules */
+        // fcc_activate_modules();
+
         /* Dismiss Jetpack Admin Nag */
         fcc_jp_dismiss_manage_banner();
 
