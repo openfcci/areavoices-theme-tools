@@ -50,6 +50,9 @@ function av_theme_conversion_tool() {
         /* Jetpack Activation */
         fcc_jetpack_connect();
 
+        /* Set Stat Visibility */
+        fcc_jetpack_set_stat_visibility();
+
         /* Activate Jetpack Modules */
         // fcc_activate_modules();
 
