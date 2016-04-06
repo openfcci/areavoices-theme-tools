@@ -152,5 +152,27 @@ function fcc_jetpack_set_social_sharing_options() {
    echo '<li>Jetpack Social Sharing Options Set</li>';
 
 }
+/* Set Site Stat visibility */
+function fcc_jetpack_set_stat_visibility(){
+  $jp_site_roles = array(
+      'admin_bar' => 1,
+      'roles' => array
+          (
+              0 => 'administrator',
+              1 => 'editor',
+              2 => 'author',
+              3 => 'contributor',
+          ),
+
+      'count_roles' => array
+          (
+        ),
+      'blog_id' => '',
+      'do_not_track' => 1,
+      'hide_smile' => 1,
+      'version' => 9
+  );
+  update_option('stats_options', $jp_site_roles);
+}
 
 ?>
